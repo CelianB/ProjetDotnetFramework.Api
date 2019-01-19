@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="815e71ae-32f4-4189-8bc8-55f84f753208" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://projetdotnet.cloudapp.net/BarcodeReader.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="BarcodeReader.xsd" MetadataType="Schema" ID="deac0dc5-60fd-42c8-918b-6414e94b6d58" SourceId="1" SourceUrl="http://projetdotnet.cloudapp.net/BarcodeReader.svc?xsd=xsd1" />
+    <MetadataFile FileName="BarcodeReader.wsdl" MetadataType="Wsdl" ID="157ca983-9cb7-41db-9d6b-25c39a5be92f" SourceId="1" SourceUrl="http://projetdotnet.cloudapp.net/BarcodeReader.svc?wsdl" />
+    <MetadataFile FileName="BarcodeReader1.xsd" MetadataType="Schema" ID="9dcf6a93-8d92-41a2-93dc-6c3b0df57113" SourceId="1" SourceUrl="http://projetdotnet.cloudapp.net/BarcodeReader.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
